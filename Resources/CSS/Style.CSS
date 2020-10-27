@@ -234,7 +234,7 @@ header {
     height: 60px;
     width: auto;
     float: left;
-    margin 5px 0; }
+    margin: 5px 0; }
  
 
 
@@ -349,8 +349,10 @@ header {
     -webkit-transform: scale(1.15);
     transform: scale(1.15);
     transform: scale(1.15);
-    -webkit-transition:-webkit-transform 0.5s; opacity 0.5s, 
-    transition: opacity 0.5s, opacity 0.5s;
+    -webkit-transition:-webkit-transform 0.5s; 
+    opacity: 0.5s;
+    transition: opacity 0.5s;
+    opacity: 0.5s;
    
     
 }    
@@ -422,7 +424,7 @@ header {
 
 
 
-.works-step: last-of-type {
+.works-step last-of-type {
     margin-bottom: 100px;
 }
 
@@ -526,10 +528,6 @@ cite img {
     background-color: #f4f4f4;  
 }
 
-    
-
-    
-}
 .plan-box {
     background-color: #fff;
     border-radius: 5px;
@@ -715,9 +713,7 @@ footer p {
 
 .js--wp-1,
 .js--wp-2,
-.js--wp-3,
-
-{
+.js--wp-3 {
     opacity: 0;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -729,8 +725,7 @@ footer p {
 
 .js--wp-1.animated,
 .js--wp-2.animated,
-.js--wp-3.animated,
- {
+.js--wp-3.animated {
     opacity: 1;
 }
 
